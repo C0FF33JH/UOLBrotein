@@ -1,4 +1,4 @@
-/* Nav Bar */
+/* Header */
 
 #page-header {
     background-color: white;
@@ -63,9 +63,8 @@
     color: #d1a091;
     cursor: pointer;
     align-self: center;
-    margin-right: 10vh;
-
     text-align: center;
+    margin-right: 10vh;
 }
 
 /* Small Screen Nav Bar */
@@ -85,7 +84,6 @@
         display: block;
         z-index: 3;
     }
-
 
     .nav-bar a {
         display: block;
