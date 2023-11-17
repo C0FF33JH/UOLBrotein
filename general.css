@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #d1a091;
+    text-align: center;
+    align-items: center;
 }
 
 .sticky {
@@ -55,6 +57,14 @@
     background-color: #d1a091;
     cursor: pointer;
     align-self: center;
+    text-align: center;
+}
+.cart{
+    color: #d1a091;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 10vh;
+
     text-align: center;
 }
 
