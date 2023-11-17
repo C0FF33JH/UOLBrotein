@@ -34,5 +34,28 @@
     */
     font-size: 16px;
     padding: 10px 0px;
+}
+
+/* email css */
+.email-form{
+    padding:10px 0px;
+    display: flex;
     align-items: center;
+}
+
+.email-form input {
+    padding: 0.8em;
+    border: none;
+    background: white;
+    color: grey;
+    font-size: 16px;
+    width: 300px;
+
+}
+
+.email-form button {
+    padding: 0.8em;
+    background: grey;
+    border: none;
+    
 }
