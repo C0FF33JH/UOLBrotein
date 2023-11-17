@@ -14,8 +14,12 @@ p{
 
 .colus{
   flex-basis: 30%;
-  min-width: 250px;
+  min-width: 230px;
   /* margin-bottom: 15px; */
+}
+
+.product-details{
+  margin: 15px;
 }
 
 .image {
@@ -24,7 +28,6 @@ p{
   border-radius: 15px;
   cursor: zoom-in;
   width: 100%;
-  margin: 15px;
 }
 
 .image:hover {
@@ -39,6 +42,11 @@ p{
   transition: font-weight,
   font-size 1s;
   margin-top: 15px;
+}
+
+.standardisation{
+  text-align: center;
+
 }
 
 .product-name:hover {
