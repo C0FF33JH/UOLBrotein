@@ -1,0 +1,77 @@
+p{
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.categories{
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.colus{
+  flex-basis: 30%;
+  min-width: 250px;
+  /* margin-bottom: 15px; */
+}
+
+.image {
+  border: 2px solid;
+  border-color: 	rgb(255,192,203);
+  border-radius: 15px;
+  cursor: zoom-in;
+  width: 100%;
+  margin: 15px;
+}
+
+.image:hover {
+  box-shadow: 0 0 10px 1px rgba(170, 51, 106, 0.8);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.product-name{
+  font-weight: bold;
+  width: 200px;
+  transition: font-weight,
+  font-size 1s;
+  margin-top: 15px;
+}
+
+.product-name:hover {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.price-tag{
+  font-weight: normal;
+  font-size: 12px;
+  transition: font-weight 1s,
+  font-size 1s;
+}
+
+.price-tag:hover {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shopping{
+  text-decoration: underline;
+  text-decoration-color: grey;
+  transition: text-decoration 1s,
+  text-decoration-thickness 1s,
+  text-decoration-color 1s,
+  font-weight 1s,
+  font-size 1s;
+  ;
+}
+.shopping:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: pink;
+  font-weight: bold;
+  font-size: 20px;
+}
