@@ -5,12 +5,12 @@
     background-color: #F0EAD6;
     color: #d1a091;
     display: grid;
-    grid-template-columns: 1 fr 1 fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .left-and-mid {
     display: grid;
-    grid-template-columns: 2fr 1 fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 /* HOVER RELATED */
