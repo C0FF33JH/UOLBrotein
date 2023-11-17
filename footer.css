@@ -1,0 +1,38 @@
+/* ALL FOOTER CSS */
+/* FOOTER GRID */
+
+.footer-grid {
+    background-color: green;
+    color:white;
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
+}
+
+.left-and-mid {
+    display: grid;
+    grid-template-columns: 2fr 1 fr;
+}
+
+/* HOVER RELATED */
+
+.contact-items:hover, more-items:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER CONTAINER */
+/* LEFT FOOTER */
+.footer-logo{
+    width:50%p;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Subscribe to newsletter */
+.left-msg{
+    /*
+    background-color: lightblue;
+    */
+    font-size: 16px;
+    padding: 10px 0px;
+    align-items: center;
+}
