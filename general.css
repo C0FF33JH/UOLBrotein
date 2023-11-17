@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px #d1a091;
+    text-align: center;
+    align-items: center;
 }
 
 .sticky {
@@ -36,6 +38,11 @@
     font-size: 1.2rem;
 }
 
+.nav-bar a:hover {
+    background-color: #d1a091;
+    color: white;
+}
+
 .menu-icon{
     color: #d1a091;
     cursor: pointer;
@@ -44,7 +51,23 @@
     text-align: center;
 }
 
-/* Small Screen Header */
+.search-button{
+    color: white;
+    border: lightgrey;
+    background-color: #d1a091;
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+}
+.cart{
+    color: #d1a091;
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+    margin-right: 10vh;
+}
+
+/* Small Screen Nav Bar */
 @media screen and (max-width: 820px) {
     .nav-bar {
         display: none;
@@ -61,7 +84,6 @@
         display: block;
         z-index: 3;
     }
-
 
     .nav-bar a {
         display: block;
