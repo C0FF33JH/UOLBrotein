@@ -2,15 +2,15 @@
 /* FOOTER GRID */
 
 .footer-grid {
-    background-color: green;
-    color:white;
+    background-color: #F0EAD6;
+    color: #d1a091;
     display: grid;
-    grid-template-columns: 1 fr 1 fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .left-and-mid {
     display: grid;
-    grid-template-columns: 2fr 1 fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 /* HOVER RELATED */
@@ -21,6 +21,14 @@
 
 /* FOOTER CONTAINER */
 /* LEFT FOOTER */
+.left-footer{
+    padding: 20px 0px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .footer-logo{
     width:50%p;
     padding-bottom: 10px;
@@ -47,7 +55,7 @@
     padding: 0.8em;
     border: none;
     background: white;
-    color: grey;
+    color: #d1a091;
     font-size: 16px;
     width: 300px;
 
@@ -55,7 +63,102 @@
 
 .email-form button {
     padding: 0.8em;
-    background: grey;
+    background: #d1a091;
     border: none;
-    
+    background-color: #d1a091;
+    color: white;
+    font-size: 16px;
+}
+
+/* Social Media icons */
+.media-icons-container{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.media-icons a i {
+    color: #d1a091;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/* MIDDLE FOOTER CONTAINER */
+.middle-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 40px;
+}
+
+/* "Contact" column and "More" column CSS */
+.contact-column{
+    margin-right: 60px;
+}
+
+.contact-title, .more-title {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 0.5em 0.7em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.contact-list, .more-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contact-items, .more-items {
+    color: rgb(230, 230, 230);
+    color: #d1a091;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/*RIGHT FOOTER CONTAINER */
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/*About us*/
+.footer-about{
+    font-size: 13px;
+    padding: 10px;
+    padding-bottom: 3em;
+    line-height: 1.5em;
+}
+
+/* Rights reserved */
+.rights-reserved{
+    padding: 1em 1.5em;
+    padding-bottom: 2em;
+    font-size: 12px;
+    border-top: 2px solid #d1a091;
+    color: #d1a091;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1023px){
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
+    .footer-about, .rights-reserved{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .left-and-mid{
+        grid-template-columns: 1fr;
+    }
 }
