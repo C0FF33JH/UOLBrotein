@@ -1,3 +1,14 @@
+.cat-title{
+    font-size: 60px;
+    display: flex;
+    background-color: #d9c1db;
+    color: #85576f;
+    justify-content: center;
+    padding-top: 30px;
+    padding-top: 20px;
+
+}
+
 /* Header */
 #page-header {
     background-color: #F0EAD6;
